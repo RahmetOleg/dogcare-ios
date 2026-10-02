@@ -1,0 +1,215 @@
+/* DogCare — английский (по умолчанию) */
+
+/* Tabs */
+"tab_profile" = "Profile";
+"tab_walks" = "Walks";
+"tab_vaccines" = "Vaccines";
+"tab_reminders" = "Reminders";
+"tab_food" = "Food";
+"tab_settings" = "Settings";
+
+/* Foods */
+"foods_title" = "Food";
+"foods_search_hint" = "Search: food, plant, medicine…";
+"foods_clear_query" = "Clear query";
+"foods_history" = "Recent searches";
+"foods_clear_history" = "Clear";
+"foods_empty_title" = "Nothing found";
+"foods_empty_description" = "Try another spelling or a shorter query";
+"foods_not_found" = "Entry not found";
+"foods_load_error_title" = "Could not load the guide";
+"foods_load_error_description" = "Please send a screenshot of this screen to the developer. Technical details:";
+"foods_retry" = "Retry";
+"foods_disclaimer" = "This guide does not replace a veterinarian. In case of poisoning, call a clinic immediately.";
+"foods_status_safe" = "Safe";
+"foods_status_conditionally" = "Conditionally okay";
+"foods_status_dangerous" = "Dangerous";
+"foods_status_toxic" = "Toxic";
+"foods_status_emergency" = "Emergency, see a vet";
+
+"food_toxic_agent" = "Hazardous substance: %@";
+"food_block_safe" = "Allowed";
+"food_block_danger" = "Forbidden";
+"food_block_symptoms" = "Symptoms";
+"food_block_first_aid" = "First aid";
+"food_block_breeds" = "Breed cautions";
+"food_no_safe_form" = "No safe form for dogs";
+"food_no_data" = "No data";
+"food_allergy_warning" = "Allergy alert for %@";
+"food_chronic_note" = "Consider chronic conditions";
+"food_breed_yours_note" = "This caution applies to your dog’s breed — be careful, it is not a ban.";
+"food_emergency_button" = "Emergency: call the vet";
+"food_emergency_title" = "Emergency call";
+"food_emergency_hint" = "Save your clinic’s number — it will stay in the app. The call opens in the phone dialer.";
+"food_emergency_phone_label" = "Clinic phone";
+"food_emergency_call" = "Call";
+
+"foods_calc_title" = "Treat portion calculator";
+"foods_calc_hint" = "Treats must not exceed 10% of daily calories. Enter the treat’s calories per 100 g.";
+"foods_calc_weight" = "Dog weight (kg)";
+"foods_calc_kcal" = "kcal per 100 g";
+"foods_calc_result" = "Up to %@ g per day — %d kcal of ~%d kcal daily";
+"foods_calc_invalid" = "Enter weight and calories to calculate the portion";
+"foods_factor_neutered" = "Neutered";
+"foods_factor_intact" = "Intact";
+"foods_factor_weight_loss" = "Weight loss";
+"foods_factor_puppy" = "Puppy 4–12 mo";
+
+/* Profile */
+"profile_title" = "Profile";
+"profile_add_title" = "Add dog";
+"profile_edit_title" = "Edit dog";
+"profile_add_dog" = "Add dog";
+"profile_edit" = "Edit";
+"profile_empty_title" = "No dog profile yet";
+"profile_empty_description" = "Create a profile to track walks, vaccines and reminders";
+"profile_info" = "Details";
+"profile_birth_date" = "Birth date";
+"profile_age" = "Age";
+"profile_weight" = "Weight";
+"profile_gender" = "Gender";
+"profile_delete_title" = "Delete profile?";
+"profile_delete_message" = "Walks, vaccines and reminders of this dog will be removed too.";
+"profile_name_label" = "Name";
+"profile_breed_label" = "Breed";
+"profile_birth_label" = "Date of birth";
+"profile_weight_label" = "Weight (kg)";
+"profile_photo_action" = "Choose photo";
+"profile_allergies_label" = "Allergies";
+"profile_allergies_hint" = "e.g. chicken, beef";
+"profile_chronic_label" = "Chronic conditions";
+"profile_chronic_hint" = "e.g. pancreatitis";
+"gender_male" = "Male";
+"gender_female" = "Female";
+"age_combined" = "%@ %@";
+"age_under_month" = "less than a month";
+"weight_format" = "%@ kg";
+
+/* Errors */
+"error_name" = "Enter a name";
+"error_breed" = "Enter a breed";
+"error_date" = "Birth date is required and cannot be in the future";
+"error_weight" = "Enter a weight from 0 to 200 kg";
+"error_gender" = "Select gender";
+"error_photo" = "Could not save the photo";
+"error_generic" = "Something went wrong";
+
+/* Walks */
+"walks_title" = "Walks";
+"walk_timer_title" = "Walk timer";
+"walk_note_label" = "Note (optional)";
+"walk_start" = "Start";
+"walk_stop" = "Finish";
+"walk_discard" = "Discard";
+"walk_history" = "History";
+"walk_started_at" = "%@, %@";
+"walk_empty_title" = "No walks yet";
+"walk_empty_description" = "Start the timer on your next walk";
+"walk_no_dog_title" = "Add a dog first";
+"walk_no_dog_description" = "Walks are tracked per dog profile";
+"walk_delete_title" = "Delete this walk?";
+"walk_delete_message" = "This action cannot be undone.";
+"error_walk_too_short" = "The walk is too short to save";
+
+/* Vaccines */
+"vaccines_title" = "Vaccines";
+"vaccines_add" = "Add vaccine";
+"vaccines_no_dog_title" = "Add a dog first";
+"vaccines_no_dog_description" = "Vaccines are tracked per dog profile";
+"vaccines_empty_title" = "No vaccines yet";
+"vaccines_empty_description" = "Add the first vaccine to get reminders";
+"vaccine_add_title" = "New vaccine";
+"vaccine_name_label" = "Vaccine name";
+"vaccine_date_given_label" = "Vaccination date";
+"vaccine_next_due_label" = "Next date";
+"vaccine_given_on" = "Given: %@";
+"vaccine_next_on" = "Next: %@";
+"vaccine_reminder_hint" = "A reminder will arrive at 9:00, 3 days before the next date";
+"vaccine_delete_title" = "Delete this vaccine?";
+"vaccine_delete_message" = "Its reminder will be cancelled too.";
+"error_vaccine_name" = "Enter the vaccine name";
+"error_vaccine_date" = "The next date cannot be earlier than the vaccination date";
+
+/* Reminders */
+"reminders_title" = "Reminders";
+"reminders_add" = "Add reminder";
+"reminders_no_dog_title" = "Add a dog first";
+"reminders_no_dog_description" = "Reminders are tracked per dog profile";
+"reminders_empty_title" = "No reminders yet";
+"reminders_empty_description" = "Add a medication or feeding schedule";
+"reminder_add_title" = "New reminder";
+"reminder_type_medication" = "Medication";
+"reminder_type_feeding" = "Feeding";
+"reminder_title_label" = "Title";
+"reminder_time_label" = "Time";
+"reminder_days_label" = "Days of week";
+"reminder_every_day" = "Every day";
+"reminder_hint" = "A notification will arrive at the chosen time on the chosen days";
+"reminder_delete_title" = "Delete this reminder?";
+"reminder_delete_message" = "Its schedule will be cancelled too.";
+"error_reminder_title" = "Enter a title";
+"error_reminder_days" = "Select at least one day";
+
+/* Settings */
+"settings_title" = "Settings";
+"settings_theme_title" = "Theme";
+"settings_theme_system" = "Follow system";
+"settings_theme_light" = "Light";
+"settings_theme_dark" = "Dark";
+"settings_data_title" = "Data";
+"settings_export" = "Export to JSON";
+"settings_export_hint" = "All data is saved to a JSON file; you can send it to any app";
+"settings_share_title" = "DogCare export";
+"settings_coming_soon" = "Coming soon";
+"settings_health_title" = "Health";
+"heat_calendar" = "Heat calendar";
+"stub_gps" = "GPS walk tracker";
+"stub_food_calc" = "Food calculator";
+"stub_foods_guide" = "Hazardous foods guide";
+"stub_multi_profile" = "Multiple dogs";
+"error_export" = "Export failed";
+
+/* Heat */
+"heat_title" = "Heat calendar";
+"heat_add_title" = "New entry";
+"heat_no_dog_title" = "Add a dog first";
+"heat_no_dog_description" = "The calendar is tracked per dog profile";
+"heat_start_label" = "First day";
+"heat_end_label" = "Last day (optional)";
+"heat_predicted" = "Next heat expected around %@";
+"heat_history" = "History";
+"heat_empty_history" = "No entries yet";
+"heat_ongoing" = "Since %@ — ongoing";
+"heat_period_with_end" = "%@ – %@ (%d days)";
+"heat_delete_title" = "Delete this heat entry?";
+"heat_delete_message" = "This action cannot be undone.";
+"heat_prev_month" = "Previous month";
+"heat_next_month" = "Next month";
+"error_heat_period" = "Check the dates: the last day cannot be earlier than the first one, dates cannot be in the future";
+
+/* Stubs */
+"stub_gps_title" = "GPS walk tracker";
+"stub_food_calc_title" = "Food calculator";
+"stub_multi_profile_title" = "Multiple dogs";
+"stub_title" = "In development";
+"stub_description" = "This feature will arrive in one of the upcoming updates";
+
+/* Actions */
+"action_ok" = "OK";
+"action_cancel" = "Cancel";
+"action_save" = "Save";
+"action_delete" = "Delete";
+"action_back" = "Back";
+
+/* Notifications */
+"notification_channel_vaccines" = "Vaccine reminders";
+"notification_channel_reminders" = "Medication and feeding";
+"notification_vaccine_title" = "Vaccine coming up";
+"notification_vaccine_text" = "%1$@: vaccine “%2$@” is scheduled for %3$@";
+"notification_type_medication" = "Medication";
+"notification_type_feeding" = "Feeding";
+"notification_reminder_title" = "%1$@: %2$@";
+"notification_reminder_text" = "%1$@ — %2$@";
+
+/* iOS-specific */
+"notifications_permission_hint" = "Reminders work through notifications. Allow notifications for DogCare in Settings to receive them.";

@@ -1,0 +1,215 @@
+/* DogCare — русский */
+
+/* Tabs */
+"tab_profile" = "Профиль";
+"tab_walks" = "Прогулки";
+"tab_vaccines" = "Прививки";
+"tab_reminders" = "Напоминания";
+"tab_food" = "Еда";
+"tab_settings" = "Настройки";
+
+/* Foods */
+"foods_title" = "Еда";
+"foods_search_hint" = "Поиск: еда, растение, лекарство…";
+"foods_clear_query" = "Очистить запрос";
+"foods_history" = "Недавние запросы";
+"foods_clear_history" = "Очистить";
+"foods_empty_title" = "Ничего не найдено";
+"foods_empty_description" = "Попробуйте другое написание или более короткий запрос";
+"foods_not_found" = "Запись не найдена";
+"foods_load_error_title" = "Не удалось загрузить справочник";
+"foods_load_error_description" = "Пришлите разработчику скриншот этого экрана. Техническая причина:";
+"foods_retry" = "Повторить";
+"foods_disclaimer" = "Справочник не заменяет ветеринара. При отравлении звоните в клинику немедленно.";
+"foods_status_safe" = "Безопасно";
+"foods_status_conditionally" = "Условно можно";
+"foods_status_dangerous" = "Опасно";
+"foods_status_toxic" = "Токсично";
+"foods_status_emergency" = "Экстренно, к ветеринару";
+
+"food_toxic_agent" = "Опасное вещество: %@";
+"food_block_safe" = "Можно";
+"food_block_danger" = "Нельзя";
+"food_block_symptoms" = "Симптомы";
+"food_block_first_aid" = "Первая помощь";
+"food_block_breeds" = "Породы: осторожно";
+"food_no_safe_form" = "Безопасной формы для собак нет";
+"food_no_data" = "Нет данных";
+"food_allergy_warning" = "Аллергия у %@";
+"food_chronic_note" = "Учитывайте хронические заболевания";
+"food_breed_yours_note" = "Это предупреждение относится к породе вашей собаки — будьте осторожны, это не запрет.";
+"food_emergency_button" = "Экстренно: позвонить ветеринару";
+"food_emergency_title" = "Экстренный вызов";
+"food_emergency_hint" = "Сохраните номер вашей клиники — он останется в приложении. Звонок откроется в наборе номера телефона.";
+"food_emergency_phone_label" = "Телефон клиники";
+"food_emergency_call" = "Позвонить";
+
+"foods_calc_title" = "Калькулятор порции лакомства";
+"foods_calc_hint" = "Лакомства — не более 10% суточной калорийности. Укажите калорийность лакомства на 100 г.";
+"foods_calc_weight" = "Вес собаки (кг)";
+"foods_calc_kcal" = "Ккал на 100 г";
+"foods_calc_result" = "Не более %@ г в день — %d ккал из ~%d ккал/сутки";
+"foods_calc_invalid" = "Введите вес и калорийность, чтобы рассчитать порцию";
+"foods_factor_neutered" = "Стерилизована";
+"foods_factor_intact" = "Не стерилизована";
+"foods_factor_weight_loss" = "Снижение веса";
+"foods_factor_puppy" = "Щенок 4–12 мес";
+
+/* Profile */
+"profile_title" = "Профиль";
+"profile_add_title" = "Новая собака";
+"profile_edit_title" = "Редактирование";
+"profile_add_dog" = "Добавить собаку";
+"profile_edit" = "Редактировать";
+"profile_empty_title" = "Профиль собаки ещё не создан";
+"profile_empty_description" = "Создайте профиль, чтобы вести прогулки, прививки и напоминания";
+"profile_info" = "Данные";
+"profile_birth_date" = "Дата рождения";
+"profile_age" = "Возраст";
+"profile_weight" = "Вес";
+"profile_gender" = "Пол";
+"profile_delete_title" = "Удалить профиль?";
+"profile_delete_message" = "Прогулки, прививки и напоминания этой собаки будут удалены.";
+"profile_name_label" = "Кличка";
+"profile_breed_label" = "Порода";
+"profile_birth_label" = "Дата рождения";
+"profile_weight_label" = "Вес (кг)";
+"profile_photo_action" = "Выбрать фото";
+"profile_allergies_label" = "Аллергии";
+"profile_allergies_hint" = "например: курица, говядина";
+"profile_chronic_label" = "Хронические заболевания";
+"profile_chronic_hint" = "например: панкреатит";
+"gender_male" = "Кобель";
+"gender_female" = "Сука";
+"age_combined" = "%@ %@";
+"age_under_month" = "меньше месяца";
+"weight_format" = "%@ кг";
+
+/* Errors */
+"error_name" = "Укажите кличку";
+"error_breed" = "Укажите породу";
+"error_date" = "Дата рождения обязательна и не может быть в будущем";
+"error_weight" = "Введите вес от 0 до 200 кг";
+"error_gender" = "Выберите пол";
+"error_photo" = "Не удалось сохранить фото";
+"error_generic" = "Что-то пошло не так";
+
+/* Walks */
+"walks_title" = "Прогулки";
+"walk_timer_title" = "Таймер прогулки";
+"walk_note_label" = "Заметка (необязательно)";
+"walk_start" = "Начать";
+"walk_stop" = "Завершить";
+"walk_discard" = "Сбросить";
+"walk_history" = "История";
+"walk_started_at" = "%1$@, %2$@";
+"walk_empty_title" = "Прогулок пока нет";
+"walk_empty_description" = "Запустите таймер на следующей прогулке";
+"walk_no_dog_title" = "Сначала добавьте собаку";
+"walk_no_dog_description" = "Прогулки ведутся по профилю собаки";
+"walk_delete_title" = "Удалить запись о прогулке?";
+"walk_delete_message" = "Действие нельзя отменить.";
+"error_walk_too_short" = "Прогулка слишком короткая для сохранения";
+
+/* Vaccines */
+"vaccines_title" = "Прививки";
+"vaccines_add" = "Добавить прививку";
+"vaccines_no_dog_title" = "Сначала добавьте собаку";
+"vaccines_no_dog_description" = "Прививки ведутся по профилю собаки";
+"vaccines_empty_title" = "Прививок пока нет";
+"vaccines_empty_description" = "Добавьте первую прививку, чтобы получать напоминания";
+"vaccine_add_title" = "Новая прививка";
+"vaccine_name_label" = "Название прививки";
+"vaccine_date_given_label" = "Дата прививки";
+"vaccine_next_due_label" = "Следующая дата";
+"vaccine_given_on" = "Сделана: %@";
+"vaccine_next_on" = "Следующая: %@";
+"vaccine_reminder_hint" = "Напоминание придёт в 9:00 за 3 дня до следующей даты";
+"vaccine_delete_title" = "Удалить запись о прививке?";
+"vaccine_delete_message" = "Её напоминание тоже будет отменено.";
+"error_vaccine_name" = "Укажите название прививки";
+"error_vaccine_date" = "Следующая дата не может быть раньше даты прививки";
+
+/* Reminders */
+"reminders_title" = "Напоминания";
+"reminders_add" = "Добавить напоминание";
+"reminders_no_dog_title" = "Сначала добавьте собаку";
+"reminders_no_dog_description" = "Напоминания ведутся по профилю собаки";
+"reminders_empty_title" = "Напоминаний пока нет";
+"reminders_empty_description" = "Добавьте расписание лекарств или кормления";
+"reminder_add_title" = "Новое напоминание";
+"reminder_type_medication" = "Лекарство";
+"reminder_type_feeding" = "Кормление";
+"reminder_title_label" = "Название";
+"reminder_time_label" = "Время";
+"reminder_days_label" = "Дни недели";
+"reminder_every_day" = "Каждый день";
+"reminder_hint" = "Уведомление придёт в выбранное время в выбранные дни";
+"reminder_delete_title" = "Удалить напоминание?";
+"reminder_delete_message" = "Его расписание тоже будет отменено.";
+"error_reminder_title" = "Укажите название";
+"error_reminder_days" = "Выберите хотя бы один день";
+
+/* Settings */
+"settings_title" = "Настройки";
+"settings_theme_title" = "Тема";
+"settings_theme_system" = "Как в системе";
+"settings_theme_light" = "Светлая";
+"settings_theme_dark" = "Тёмная";
+"settings_data_title" = "Данные";
+"settings_export" = "Экспорт в JSON";
+"settings_export_hint" = "Все данные сохраняются в JSON-файл; отправить его можно в любое приложение";
+"settings_share_title" = "Экспорт DogCare";
+"settings_coming_soon" = "Скоро";
+"settings_health_title" = "Здоровье";
+"heat_calendar" = "Календарь течки";
+"stub_gps" = "GPS-трекер прогулок";
+"stub_food_calc" = "Калькулятор корма";
+"stub_foods_guide" = "Справочник опасных продуктов";
+"stub_multi_profile" = "Несколько собак";
+"error_export" = "Не удалось выполнить экспорт";
+
+/* Heat */
+"heat_title" = "Календарь течки";
+"heat_add_title" = "Новая запись";
+"heat_no_dog_title" = "Сначала добавьте собаку";
+"heat_no_dog_description" = "Календарь ведётся по профилю собаки";
+"heat_start_label" = "Первый день";
+"heat_end_label" = "Последний день (необязательно)";
+"heat_predicted" = "Следующая течка ожидается около %@";
+"heat_history" = "История";
+"heat_empty_history" = "Записей пока нет";
+"heat_ongoing" = "С %@ — идёт";
+"heat_period_with_end" = "%1$@ – %2$@ (%3$d дн.)";
+"heat_delete_title" = "Удалить запись о течке?";
+"heat_delete_message" = "Действие нельзя отменить.";
+"heat_prev_month" = "Предыдущий месяц";
+"heat_next_month" = "Следующий месяц";
+"error_heat_period" = "Проверьте даты: последний день не может быть раньше первого, даты не могут быть в будущем";
+
+/* Stubs */
+"stub_gps_title" = "GPS-трекер прогулок";
+"stub_food_calc_title" = "Калькулятор корма";
+"stub_multi_profile_title" = "Несколько собак";
+"stub_title" = "В разработке";
+"stub_description" = "Функция появится в одном из следующих обновлений";
+
+/* Actions */
+"action_ok" = "ОК";
+"action_cancel" = "Отмена";
+"action_save" = "Сохранить";
+"action_delete" = "Удалить";
+"action_back" = "Назад";
+
+/* Notifications */
+"notification_channel_vaccines" = "Напоминания о прививках";
+"notification_channel_reminders" = "Лекарства и кормление";
+"notification_vaccine_title" = "Скоро прививка";
+"notification_vaccine_text" = "%1$@: прививка «%2$@» запланирована на %3$@";
+"notification_type_medication" = "Лекарство";
+"notification_type_feeding" = "Кормление";
+"notification_reminder_title" = "%1$@: %2$@";
+"notification_reminder_text" = "%1$@ — %2$@";
+
+/* iOS-specific */
+"notifications_permission_hint" = "Напоминания работают через уведомления. Разрешите уведомления для DogCare в настройках iPhone, чтобы получать их.";
