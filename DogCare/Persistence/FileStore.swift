@@ -144,7 +144,7 @@ final class SettingsStore: ObservableObject {
     func addFoodSearchQuery(_ query: String) {
         let trimmed = query.trimmingCharacters(in: .whitespaces)
         guard !trimmed.isEmpty else { return }
-        let existing = foodSearchHistory.filter { !$0.caseInsensitiveCompare(trimmed) == .orderedSame }
+        let existing = foodSearchHistory.filter { $0.caseInsensitiveCompare(trimmed) != .orderedSame }
         foodSearchHistory = ([trimmed] + existing).prefix(Self.historyMaxEntries).map { $0 }
     }
 

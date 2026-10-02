@@ -5,13 +5,13 @@ import SwiftUI
 extension Color {
     // Светлая схема
     static let dcPrimaryLight = Color(red: 0x8C / 255.0, green: 0x4E / 255.0, blue: 0x00 / 255.0)
-    static let dcOnPrimaryLight = .white
+    static let dcOnPrimaryLight = Color.white
     static let dcPrimaryContainerLight = Color(red: 0xFF / 255.0, green: 0xDC / 255.0, blue: 0xC4 / 255.0)
     static let dcOnPrimaryContainerLight = Color(red: 0x2D / 255.0, green: 0x16 / 255.0, blue: 0x00 / 255.0)
     static let dcSecondaryContainerLight = Color(red: 0xF9 / 255.0, green: 0xDF / 255.0, blue: 0xBF / 255.0)
     static let dcOnSecondaryContainerLight = Color(red: 0x27 / 255.0, green: 0x19 / 255.0, blue: 0x04 / 255.0)
     static let dcErrorLight = Color(red: 0xBA / 255.0, green: 0x1A / 255.0, blue: 0x1A / 255.0)
-    static let dcOnErrorLight = .white
+    static let dcOnErrorLight = Color.white
     static let dcErrorContainerLight = Color(red: 0xFF / 255.0, green: 0xDA / 255.0, blue: 0xD6 / 255.0)
     static let dcOnErrorContainerLight = Color(red: 0x41 / 255.0, green: 0x00 / 255.0, blue: 0x02 / 255.0)
     static let dcBackgroundLight = Color(red: 0xFF / 255.0, green: 0xF8 / 255.0, blue: 0xF5 / 255.0)

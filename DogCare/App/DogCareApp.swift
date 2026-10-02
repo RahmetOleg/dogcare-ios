@@ -63,6 +63,7 @@ struct RootView: View {
     }
 
     private var isDark: Bool {
-        colorScheme ?? (systemColorScheme == .dark)
+        if let colorScheme { return colorScheme == .dark }
+        return systemColorScheme == .dark
     }
 }
