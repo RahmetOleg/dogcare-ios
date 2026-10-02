@@ -5,6 +5,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: macos-14
@@ -17,6 +20,7 @@ jobs:
 
       - name: Build archive (unsigned)
         run: |
+          set -o pipefail
           xcodebuild archive \
             -project DogCare.xcodeproj \
             -scheme DogCare \
@@ -26,7 +30,8 @@ jobs:
             CODE_SIGN_IDENTITY="" \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGNING_ALLOWED=NO \
-            AD_HOC_CODE_SIGNING_ALLOWED=YES
+            AD_HOC_CODE_SIGNING_ALLOWED=YES \
+            2>&1 | tee build.log
 
       - name: Export unsigned IPA
         run: |
@@ -41,3 +46,24 @@ jobs:
         with:
           name: DogCare-unsigned-ipa
           path: build/DogCare-unsigned.ipa
+
+      # Диагностика: полный лог сборки — в ветку ci-logs (читается без авторизации),
+      # последние ошибки — в summary запуска
+      - name: Summarize errors
+        if: failure()
+        run: |
+          {
+            echo "## Build errors"
+            echo '```'
+            grep -E "error:|** BUILD FAILED **|The following build commands failed" build.log | tail -50
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Push build log to ci-logs branch
+        if: failure()
+        run: |
+          git config user.name "ci-log-bot"
+          git config user.email "ci-log-bot@users.noreply.github.com"
+          git add -f build.log
+          git commit -m "ci: build log"
+          git push origin HEAD:ci-logs --force
